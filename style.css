@@ -18,6 +18,7 @@
                 padding:10px 0;
                 width: 960px;
                 margin: auto;
+                position:absolute;
                 bottom:0;
            }
             aside {
