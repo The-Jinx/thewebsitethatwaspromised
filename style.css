@@ -1,3 +1,6 @@
+    body {
+        background-image: url(exclusive_paper.png);
+    } 
   #wrapper {
             	max-width: 960px;
             	margin: auto;
@@ -9,8 +12,8 @@
                 padding:30px;
             }
             section {
-                margin-left: 280px;
-	padding-bottom: 50px;
+                margin-left: 30%;
+            	padding-bottom: 50px;
             }
             footer {
                 background-color:rgb(60, 0, 0);
@@ -23,8 +26,17 @@
            }
             aside {
                float: left;
-	width: 250px;
+                  }
+            .side-menu li {
+	display: block;
+	margin: 10px;
             }
+    .side-menu a {
+	color: #999999;
+}
+    aside a {
+        text-decoration: none;
+    }
     nav a {
 	text-decoration: none;
 }
