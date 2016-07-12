@@ -2,10 +2,17 @@ $("#books").click(function(){
         $("#books_section").show();
         $("#main").hide();
         $("#interests_section").hide();
+        $("#movies_section").hide();
 });
 $("#interests").click(function(){
         $("#interests_section").show();
         $("#main").hide();
         $("#books_section").hide();
+        $("#movies_section").hide();
 });
-
+$("#movies").click(function(){
+        $("#movies_section").show();
+        $("#main").hide();
+        $("#interests_section").hide();
+        $("#books_section").hide();
+});
