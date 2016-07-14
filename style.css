@@ -103,3 +103,14 @@ nav li {
 .welcome {
     color:rgb(137,11,65);
 }
+.side-menu li {
+    cursor:pointer;
+    text-decoration:underline;
+}
+.icon li {
+    font-size:48px;
+    text-decoration:none;
+}
+#cn {
+    float:right;
+}
